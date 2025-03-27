@@ -97,9 +97,9 @@ For U-Net, we used:
 
 | Method                    | Accuracy |
 |---------------------------|----------|
-| SVM (Handcrafted features)| 0.91     |
-| NN (Handcrafted features) | 0.89     |
-| CNN                       | 0.96     |
+| SVM (Handcrafted features)| 93.28 %  |
+| NN (Handcrafted features) | 90.84 %  |
+| CNN                       | 96.46 %  |
 
 The CNN outperformed the traditional machine learning classifiers, demonstrating the power of deep learning for this task.
 
