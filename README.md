@@ -107,10 +107,10 @@ The CNN outperformed the traditional machine learning classifiers, demonstrating
 
 | Method             | IoU    | Dice Score |
 |--------------------|--------|------------|
-| Color Thresholding | 0.52   | 0.65       |
-| Edge-based         | 0.48   | 0.59       |
-| Watershed          | 0.56   | 0.68       |
-| U-Net              | 0.85   | 0.91       |
+| Color Thresholding | 0.253  | 0.339      |
+| Edge-based         | 0.269  | 0.378      |
+| Watershed          | 0.214  | 0.27       |
+| U-Net              | 0.782  | 0.869      |
 
 U-Net significantly outperformed traditional segmentation methods, providing much more precise mask segmentation.
 
@@ -127,3 +127,15 @@ Challenges faced:
 - Diverse lighting conditions and backgrounds
 - Limited dataset size for U-Net training
 - Balancing model complexity with performance
+
+
+## How to Run the Code
+
+### Binary Classification
+1. Run the notebook
+
+### Region Segmentation
+1. Download the dataset using the link given above
+2. Extract the contents of the 'dataset/1' folder into the dataset folde
+3. Rename 'face-crop' and 'face-crop-segmentation' folders to 'images' and 'masks'
+4. Run the notebook 
